@@ -1,0 +1,26 @@
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+.cities .links {
+  margin-bottom: 30px;
+}
+
+.cities .links a {
+  padding: 0 10px;
+}
+
+.cities .city__title {
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.cities .city__description {
+  max-width: 700px;
+  margin: 0 auto;
+}
