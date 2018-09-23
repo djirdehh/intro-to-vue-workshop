@@ -1,6 +1,13 @@
-# solution
+# 💪 Introduction to Vue Workshop
 
-## Project setup
+## Unit Testing (Solution)
+
+### Goals
+
+* Write two separate tests that test the functionality of removing a single submitted todo item and all todo items in the list respectively.
+
+### Set-up
+
 ```
 npm install
 ```
@@ -8,16 +15,6 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Run your unit tests

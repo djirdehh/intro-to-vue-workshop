@@ -1,6 +1,9 @@
-# starting-point
+# 💪 Introduction to Vue Workshop
 
-## Project setup
+## State Management & Vuex - Exercise (Custom Events Solution)
+
+### Set-up
+
 ```
 npm install
 ```
@@ -8,14 +11,4 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```

@@ -1,6 +1,13 @@
-# starting-point
+# 💪 Introduction to Vue Workshop
 
-## Project setup
+## Filters (Starting Point)
+
+### Goals
+
+* Create filters to better format the currency price and circulating supply numbers (For formatting - use JavaScript's [new Intl.NumberFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat) object).
+
+### Set-up
+
 ```
 npm install
 ```
@@ -8,14 +15,4 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```

@@ -1,6 +1,13 @@
-# starting-point
+# 💪 Introduction to Vue Workshop
 
-## Project setup
+## Components and Single File Components - Exercise (Starting Point)
+
+### Goals
+
+* Refactor solution from section [02 - The Vue Instance](https://github.com/djirdehh/intro-to-vue-workshop/tree/master/02-vue-instance/exercise/solution) but within a module based app and Single File Components.
+
+### Set-up
+
 ```
 npm install
 ```
@@ -8,14 +15,4 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
