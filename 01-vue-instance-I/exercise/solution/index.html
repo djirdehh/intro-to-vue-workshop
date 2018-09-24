@@ -15,7 +15,7 @@
     <h2 class="title has-text-centered dividing-header">UpVote!</h2>
 
     <div class="section">
-      <article v-for="submission in sortedSubmissions"
+      <article v-for="submission in submissions"
         :key="submission.id"
         class="media"
         :class="{ 'blue-border': submission.votes >= 20 }">
@@ -43,7 +43,7 @@
           </div>
         </div>
         <div class="media-right">
-          <span class="icon is-small" @click="upvote(submission.id)">
+          <span class="icon is-small" @click="upvote(submission)">
             <i class="fa fa-chevron-up"></i>
             <strong class="has-text-info">{{ submission.votes }}</strong>
           </span>

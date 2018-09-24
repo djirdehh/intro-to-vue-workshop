@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.css">
+  <link rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+  <link rel="stylesheet"
+    href="./styles.css" />
+</head>
+
+<body>
+  <div id="app">
+    <div class="field">
+      <label class="label">KM</label>
+      <input v-model="km"
+             class="input"
+             type="text"
+             placeholder="Type a length in KM!">
+    </div>
+    
+    <div class="field">
+      <label class="label">M</label>
+      <input v-model="m"
+             class="input"
+             type="text"
+             placeholder="Type a length in M!">
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/vue"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>

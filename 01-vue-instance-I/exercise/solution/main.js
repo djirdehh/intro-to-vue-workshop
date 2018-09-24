@@ -42,19 +42,8 @@ new Vue({
   data: {
     submissions
   },
-  computed: {
-    sortedSubmissions() {
-      const initialSubmissions = this.submissions;
-      return initialSubmissions.sort((a, b) => {
-        return b.votes - a.votes;
-      });
-    }
-  },
   methods: {
-    upvote(submissionId) {
-      const submission = this.submissions.find(
-        submission => submission.id === submissionId
-      );
+    upvote(submission) {
       submission.votes++;
     }
   }
