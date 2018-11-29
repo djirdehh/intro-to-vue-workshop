@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>The speaker is {{ speaker }}</h1>
+      <img v-bind:src="img" />
+
+      <h1>The workshop is {{ workshop }}</h1>
+      <h1>The city is {{ city }}</h1>
+
+      <button v-on:click="changeSpeaker">Change Speaker</button>
+      <p v-if="speaker === 'Aubrey Graham'">Damn! That's Drake!</p>
+      <p v-show="speaker === 'Aubrey Graham'">Damn! That's Drake!</p>
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

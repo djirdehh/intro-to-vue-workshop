@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="tweet">
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <figure class="image is-64x64"><img :src="tweets[0].img" /></figure>
+            </div>
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <strong>{{ tweets[0].name }}</strong> <small>{{ tweets[0].handle }}</small> <br />
+                  {{ tweets[0].tweet }}
+                </p>
+              </div>
+              <div class="level-left">
+                <a class="level-item">
+                  <span class="icon is-small"> <i class="fas fa-heart"></i> </span> <span class="likes">{{ tweets[0].likes }}</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="tweet">
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <figure class="image is-64x64"><img :src="tweets[1].img" /></figure>
+            </div>
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <strong>{{ tweets[1].name }}</strong> <small>{{ tweets[1].handle }}</small> <br />
+                  {{ tweets[1].tweet }}
+                </p>
+              </div>
+              <div class="level-left">
+                <a class="level-item">
+                  <span class="icon is-small"> <i class="fas fa-heart"></i> </span> <span class="likes">{{ tweets[1].likes }}</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="tweet">
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <figure class="image is-64x64"><img :src="tweets[2].img" /></figure>
+            </div>
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <strong>{{ tweets[2].name }}</strong> <small>{{ tweets[2].handle }}</small> <br />
+                  {{ tweets[2].tweet }}
+                </p>
+              </div>
+              <div class="level-left">
+                <a class="level-item">
+                  <span class="icon is-small"> <i class="fas fa-heart"></i> </span> <span class="likes">{{ tweets[2].likes }}</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="tweet" v-for="tweet in tweets">
+        <div class="box">
+          <article class="media">
+            <div class="media-left">
+              <figure class="image is-64x64"><img :src="tweet.img" /></figure>
+            </div>
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <strong>{{ tweet.name }}</strong> <small>{{ tweet.handle }}</small> <br />
+                  {{ tweet.tweet }}
+                </p>
+              </div>
+              <div class="level-left">
+                <a class="level-item">
+                  <span class="icon is-small"><i class="fas fa-heart"></i></span> <span class="likes">{{ tweet.likes }}</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
