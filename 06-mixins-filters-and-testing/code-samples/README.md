@@ -2,6 +2,10 @@
 
 ## Mixins, Filters, & Testing - Code Samples
 
+All code samples are shown above for ease of download and running locally. CodeSandbox links of the same code samples are shown below as well. 
+
+[Note: The testing sample CodeSandboxes have been grouped to single directories (one for custom testing and another for testing with vue-test-utils) for ease of download].
+
 ### CodeSandBox
 
 * [Mixins I](https://codesandbox.io/s/mzor2526y)
