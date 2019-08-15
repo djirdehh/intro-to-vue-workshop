@@ -2,14 +2,14 @@
 
 A small github repo used to host resources, code samples, and exercises for the A Full Day Of Vue.js Workshop.
 
-### Day 1
+### Part I
 * [Introduction](#introduction)
 * [Vue Instance I (Data & Vue Directives)](#vue-instance-i-data--vue-directives)
 * [Vue Instance II (Methods, Computed Properties, Watchers, & Lifecycle Hooks)](#vue-instance-ii-methods-computed-properties-watchers--lifecycle-hooks)
 * [Components & Single-File Components](#components-and-single-file-components)
 * [Day 1 Extras](#day-1-extras)
 
-### Day 2
+### Part II
 * [State Management & Vuex](#state-management-and-vuex)
 * [Routing & Vue Router](#routing-and-vue-router)
 * [Mixins, Filters, & Unit Testing](#mixins-filters-and-unit-testing)
@@ -17,7 +17,7 @@ A small github repo used to host resources, code samples, and exercises for the 
 
 __Intended Audience__: Newcomers to the Vue.js framework that have an understanding of standard HTML, CSS, and JavaScript concepts. All code examples/discussions are related to Vue version 2.X.
 
-# Day 1
+# Part I
 
 ## Introduction
 
@@ -65,7 +65,7 @@ Topics include Global Vue Components, Component Variables, Single File Component
 * [Vue Documentation - Components](https://vuejs.org/v2/guide/components.html)
 * [Vue Documentation - Single File Components](https://vuejs.org/v2/guide/single-file-components.html)
 
-## Day 1 Extras
+## Part I Extras
 
 Alternate component templates, render functions, and introducing CSS libraries to Webpack Vue projects.
 
@@ -73,7 +73,7 @@ Alternate component templates, render functions, and introducing CSS libraries t
 * [Slides (LIVE)](https://slides.com/djirdehh/intro_to_vue_02-cb6f58b4-a361-4138-a900-e699f031111b/live)
 ___________
 
-# Day 2
+# Part II
 
 ## State Management and Vuex
 
@@ -108,7 +108,7 @@ Topics include Mixins, Filters, Testing & Unit Testing, and Vue Test Utils.
 * [Exercise](https://github.com/djirdehh/intro-to-vue-workshop/tree/master/06-mixins-filters-and-testing/exercise)
 * [Vue Test Utils Documentation](https://vue-test-utils.vuejs.org/)
 
-## Day 2 Extras
+## Part II Extras
 
 Vue 3.0!
 
