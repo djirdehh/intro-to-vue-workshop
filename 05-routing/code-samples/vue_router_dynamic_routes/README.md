@@ -1,4 +1,4 @@
-# 💪 Introduction to Vue Workshop
+# 💪 A Full Day Of Vue.js Workshop
 
 ## Vue Router II (Dynamic Route Matching) (Scaffoled with vue-cli [default]) - Webpack Bundled Vue Application
 

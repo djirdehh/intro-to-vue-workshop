@@ -1,4 +1,4 @@
-# 🚀 Introduction to Vue Workshop
+# 🚀 A Full Day Of Vue.js Workshop
 
 ## Mixins, Filters, & Testing - Code Samples
 

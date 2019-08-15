@@ -1,6 +1,6 @@
-# 🚀 Introduction to Vue Workshop
+# 🚀 A Full Day Of Vue.js Workshop
 
-A small github repo used to host resources, code samples, and exercises for the Introduction to Vue Workshop.
+A small github repo used to host resources, code samples, and exercises for the A Full Day Of Vue.js Workshop.
 
 ### Day 1
 * [Introduction](#introduction)

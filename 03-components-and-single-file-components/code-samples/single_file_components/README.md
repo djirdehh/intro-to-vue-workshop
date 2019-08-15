@@ -1,4 +1,4 @@
-# 💪 Introduction to Vue Workshop
+# 💪 A Full Day Of Vue.js Workshop
 
 ## Single File Components (Scaffoled with vue-cli [default]) - Webpack Bundled Vue Application
 
