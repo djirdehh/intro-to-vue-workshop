@@ -92,7 +92,7 @@ Topics include Routing, Single-Page apps, building a Custom Vue Router, Vue Rout
 
 #### Resources:
 
-* [Slides](https://slides.com/djirdehh/intro_to_vue_02-2-4)
+* [Slides](https://slides.com/djirdehh/intro_to_vue_01-1-3-9)
 * [Code Samples](https://github.com/djirdehh/intro-to-vue-workshop/tree/master/05-routing/code-samples)
 * [Exercise](https://github.com/djirdehh/intro-to-vue-workshop/tree/master/05-routing/exercise)
 * [Vue Router Documentation](https://router.vuejs.org/)
