@@ -34,7 +34,6 @@ Topics include the Vue Instance, data-driven Vue applications, the Mustache Synt
 #### Resources:
 
 * [Slides](https://slides.com/djirdehh/intro_to_vue_02)
-* [Slides (LIVE)](https://slides.com/djirdehh/intro_to_vue_02/live)
 * [Code Samples](https://github.com/djirdehh/intro-to-vue-workshop/tree/master/01-vue-instance-I/code-samples)
 * [Exercise](https://github.com/djirdehh/intro-to-vue-workshop/tree/master/01-vue-instance-I/exercise)
 * [Vue Documentation](https://vuejs.org/v2/guide/instance.html)
@@ -46,7 +45,6 @@ Topics include the Vue Instance, Methods, Computed properties, Watchers, and Lif
 #### Resources:
 
 * [Slides](https://slides.com/djirdehh/intro_to_vue_02-6)
-* [Slides (LIVE)](https://slides.com/djirdehh/intro_to_vue_02-6/live)
 * [Code Samples](https://github.com/djirdehh/intro-to-vue-workshop/tree/master/02-vue-instance-II/code-samples)
 * [Exercise](https://github.com/djirdehh/intro-to-vue-workshop/tree/master/02-vue-instance-II/exercise)
 * [Vue Documentation - Computed Properties & Watchers](https://vuejs.org/v2/guide/computed.html)
@@ -59,7 +57,6 @@ Topics include Global Vue Components, Component Variables, Single File Component
 #### Resources:
 
 * [Slides](https://slides.com/djirdehh/intro_to_vue_02-2)
-* [Slides (LIVE)](https://slides.com/djirdehh/intro_to_vue_02-2/live)
 * [Code Samples](https://github.com/djirdehh/intro-to-vue-workshop/tree/master/03-components-and-single-file-components/code-samples)
 * [Exercise](https://github.com/djirdehh/intro-to-vue-workshop/tree/master/03-components-and-single-file-components/exercise)
 * [Vue Documentation - Components](https://vuejs.org/v2/guide/components.html)
@@ -88,22 +85,24 @@ Topics include Props, Custom Events, Global EventBus, Simple State Management, a
 
 ## Routing and Vue Router
 
-Topics include Routing, Single-Page apps, building a Custom Vue Router, Vue Router, and Vue Router advanced features (Dynamic Route Matching, Nested Routes, and Navigation Guards).
+Topics include Routing, Single-Page apps, Vue Router, and Vue Router advanced features (Dynamic Route Matching, Nested Routes, and Navigation Guards).
 
 #### Resources:
 
 * [Slides](https://slides.com/djirdehh/intro_to_vue_01-1-3-9)
+* [Slides (with Custom Router](https://slides.com/djirdehh/intro_to_vue_02-2-4/)
 * [Code Samples](https://github.com/djirdehh/intro-to-vue-workshop/tree/master/05-routing/code-samples)
 * [Exercise](https://github.com/djirdehh/intro-to-vue-workshop/tree/master/05-routing/exercise)
 * [Vue Router Documentation](https://router.vuejs.org/)
 
-## Mixins, Filters, and Unit Testing
+## Testing
 
-Topics include Mixins, Filters, Testing & Unit Testing, and Vue Test Utils.
+Topics include Testing, Unit Testing, and Vue Test Utils.
 
 #### Resources:
 
-* [Slides](https://slides.com/djirdehh/intro_to_vue_02-7)
+* [Slides](https://slides.com/djirdehh/intro_to_vue_02-6-10/)
+* [Slides (with Mixins & Filters](https://slides.com/djirdehh/intro_to_vue_02-7/)
 * [Code Samples](https://github.com/djirdehh/intro-to-vue-workshop/tree/master/06-mixins-filters-and-testing/code-samples)
 * [Exercise](https://github.com/djirdehh/intro-to-vue-workshop/tree/master/06-mixins-filters-and-testing/exercise)
 * [Vue Test Utils Documentation](https://vue-test-utils.vuejs.org/)
